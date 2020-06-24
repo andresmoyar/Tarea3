@@ -22,9 +22,9 @@ Para esta parte se tiene que leer el .csv y se divide en dos arreglos, uno con l
  print(param)
  print(paramy)
 ```
-Lo que da un \sigma para "x" de: 3.29944286 y para "y" de: 6.02693775
+Lo que da un <img src="https://render.githubusercontent.com/render/math?math=\sigma"> para "x" de: 3.29944286 y para "y" de: 6.02693775
 
-Lo que da un \mu para "x" de: 9.90484381 y para "y" de: 15.0794609 
+Lo que da un <img src="https://render.githubusercontent.com/render/math?math=\mu"> para "x" de: 9.90484381 y para "y" de: 15.0794609 
 ## Parte 2-Expresión de la función de densidad conjunta que modela los datos
 
 Para determinar esto se sabe que fx,y(x,y)=fx(x)fy(y).
@@ -35,7 +35,7 @@ A continuación se coloca el procedimiento y su resultado.
 
 <img src="https://render.githubusercontent.com/render/math?math=f(x)=ae^{-(x-\mu)^{2}/2\sigma^{2}}">
 
-Es lo mismo para ambas, solo cambia el \mu , el \sigma y el a (punto más alto). Cuando se multplican queda:
+Es lo mismo para ambas, solo cambia el <img src="https://render.githubusercontent.com/render/math?math=\mu"> , el <img src="https://render.githubusercontent.com/render/math?math=\sigma"> y el a (punto más alto). Cuando se multplican queda:
 
 <img src="https://render.githubusercontent.com/render/math?math=fx,y(x,y)=(ab)e^{-(x-\9.90484381)^{2}/2*3.29944286^{2}-(y-15.0794609)^{2}/2*6.02693775^{2}}">
 
