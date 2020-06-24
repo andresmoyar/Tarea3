@@ -35,6 +35,14 @@ A continuación se coloca el procedimiento y su resultado.
 
 <img src="https://render.githubusercontent.com/render/math?math=f(x)=ae^{-(x-\mu)^{2}/2\sigma^{2}}">
 
-Es lo mismo para ambas, solo que 
+Es lo mismo para ambas, solo cambia el \mu , el \sigma y el a (punto más alto). Cuando se multplican queda:
 
+<img src="https://render.githubusercontent.com/render/math?math=fx,y(x,y)=(ab)e^{-(x-\9.90484381)^{2}/2*3.29944286^{2}-(y-15.0794609)^{2}/2*6.02693775^{2}}">
+
+Siendo a y b los puntos más altos de "x" y "y" respectivamente. Se suman los exponentes.
+
+## Parte 3-Expresión de la función de densidad conjunta que modela los datos
+Correlación: 149.54281000000012
+Covarianza: 149.54281000000012
+Coeficiente de variazión: 0.002301987358892183
 
