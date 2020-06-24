@@ -38,14 +38,14 @@ for i in range(len(dfp)):
 print( "Correlacion :" ,correlacion)
 
 
-#Varianza 
+#Covarianza 
 covarianza = correlacion - (param[0]*paramy[0])
-print( "Varianza :" ,covarianza)
+print( "Covarianza :" ,covarianza)
 
 
-# Coeficiente de varianza
-cv = covarianza/ (param[1]*paramy[1]*4)
-print( "Coeficiente de varianza:" ,cv)
+# Coeficiente de correlación
+cc = covarianza/ (param[1]*paramy[1]*4)
+print( "Coeficiente de varianza:" ,cc)
 
 #Parte 4
 #Curva Fx
