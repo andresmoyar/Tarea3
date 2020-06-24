@@ -63,11 +63,21 @@ for i in range(len(dfp)):
 print( "Correlacion :" ,correlacion)
 
 ```
+La correlación encontrada es la siguiente:
 
 Correlación: 149.54281000000012
 ### La Covarianza
+Indica el grado de variación de variación de dos variables aleatorias respecto a su medida. En la fórmula se hace la resta de la correlación y la media. Al ser una función de Gauss, se obtiene que la media es el <img src="https://render.githubusercontent.com/render/math?math=\mu">, por ello se usan las de cada uno, como "x" y "y".
+
+
+```python
+covarianza = correlacion - (param[0]*paramy[0])
+print( "Covarianza :" ,covarianza)
+
+```
+Para los datos utilizados da lo siguiente:
 
 Covarianza: 0.18310501696706183
-### El coeficiente de Variación
-Coeficiente de variación: 0.002301987358892183
+### El coeficiente de Correlación
+Coeficiente de correlación: 0.002301987358892183
 
