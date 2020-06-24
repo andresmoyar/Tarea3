@@ -43,11 +43,32 @@ Siendo a y b los puntos más altos de "x" y "y" respectivamente. Se suman los ex
 
 ## Parte 3-Expresión de la función de densidad conjunta que modela los datos
 ### La correlación
-Es el grado en el cual dos o más cantidades están linealmente asociadas. Para hacer esto se tiene que en cantidades discretas es la sumatoria de la función de densidad, multiplicada por las variables de "x" y "y".
+Es el grado en el cual dos o más cantidades están linealmente asociadas. Para hacer esto se tiene que en cantidades discretas es la sumatoria de la función de densidad, multiplicada por las variables de "x" y "y", estos son los términos que varía la sumatoria(fxy,x,y).
 
 <img src="https://render.githubusercontent.com/render/math?math=Rxy=\Sigma%20\Sigma%20xyf_{xy}(x,y)">
 
+
+#### El código usado para encontrar la correlación es el siguiente:
+```python
+ x = np.linspace(5,15,11)
+ y = np.linspace(5,25,21)
+ df = pd.read_csv("xy.csv")
+ arr = df.to_numpy()
+ arr=np.delete(arr,0,1)
+ sumy= np.sum(arr,axis=0)
+ sumx= np.sum(arr,axis=1)
+ #Curva de mejor ajuste .Las dos figuras obtenidas eran una curva de Gauss
+ def gaussiana(x,mu,sigma):
+ return 1/(np.sqrt(2*np.pi*sigma**2))*np.exp(-(x-mu)**2/(2*sigma**2))
+ param,_=curve_fit(gaussiana,x,sumx)
+ paramy,_=curve_fit(gaussiana,y,sumy)
+ print(param)
+ print(paramy)
+```
+
 Correlación: 149.54281000000012
-Covarianza: 149.54281000000012
+### La Covarianza
+Covarianza: 0.18310501696706183
+### El coeficiente de Variación
 Coeficiente de variación: 0.002301987358892183
 
