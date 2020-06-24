@@ -29,5 +29,8 @@ Se tiene que ambos son funciones de Gauss, para ello se tiene multiplicar ambas 
 
 A continuación se coloca el procedimiento y su resultado.
 
-<img src="https://render.githubusercontent.com/render/math?math=f(x)=ae^{-(x-b)^{2}/2c^{2}}">
+<img src="https://render.githubusercontent.com/render/math?math=f(x)=ae^{-(x-\mu)^{2}/2\sigma^{2}}">
+
+Es lo mismo para ambas, solo que 
+
 
