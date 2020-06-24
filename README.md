@@ -5,7 +5,7 @@ Es mi código fuente de la tarea 3 de modelos probabilísticos. Se encuentra el 
 Para esta parte se tiene que leer el .csv y se divide en dos arreglos, uno con las sumatorias de los datos marginales de x y otro con los datos marginales de y. Luegos se usa linspace para generar los valores de 5 hasta 15 en ¨x¨ y 5 hasta 25 en ¨y¨
 
 
-.. code-block:: python
+```python
  x = np.linspace(5,15,11)
  y = np.linspace(5,25,21)
  df = pd.read_csv("xy.csv")
@@ -20,3 +20,4 @@ Para esta parte se tiene que leer el .csv y se divide en dos arreglos, uno con l
  paramy,_=curve_fit(gaussiana,y,sumy)
  print(param)
  print(paramy)
+```
