@@ -5,7 +5,26 @@ Es mi código fuente de la tarea 3 de modelos probabilísticos. Se encuentra el 
 Para esta parte se tiene que leer el .csv y se divide en dos arreglos, uno con las sumatorias de los datos marginales de x y otro con los datos marginales de y. Luegos se usa linspace para generar los valores de 5 hasta 15 en ¨x¨ y 5 hasta 25 en ¨y¨
 
 # Parte 1 Mejor Curva de ajuste
-
+{
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "12 hola 6\n"
+     ]
+    }
+   ],
+   "source": [
+    "numero = 12\n",
+    "caracteres = 'hola'\n",
+    "a, b, c = 1, 2, 3\n",
+    "print(numero, caracteres, a + b + c)"
+   ]
+  }
 "source": [
 
 x = np.linspace(5,15,11)
