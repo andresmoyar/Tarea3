@@ -21,6 +21,7 @@ Para esta parte se tiene que leer el .csv y se divide en dos arreglos, uno con l
  print(param)
  print(paramy)
 ```
+Lo que da un \sigma para "x" de: y para "y" de:
 ## Parte 2-Expresión de la función de densidad conjunta que modela los datos
 
 Para determinar esto se sabe que fx,y(x,y)=fx(x)fy(y).
