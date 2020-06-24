@@ -28,3 +28,5 @@ Para determinar esto se sabe que fx,y(x,y)=fx(x)fy(y).
 Se tiene que ambos son funciones de Gauss, para ello se tiene multiplicar ambas funciones para obtener la función de densidad conjunta.
 
 A continuación se coloca el procedimiento y su resultado.
+
+
