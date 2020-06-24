@@ -3,7 +3,11 @@
 ## Andrés Moya Ramírez B54889
 Es mi código fuente de la tarea 3 de modelos probabilísticos. Se encuentra el código fuente y las gráficas obtenidas. 
 ## Parte 1-Mejor Curva de ajuste para las funciones de densidad marginales de X y Y
-Para esta parte se tiene que leer el .csv y se divide en dos arreglos, uno con las sumatorias de los datos marginales de x y otro con los datos marginales de y. Luegos se usa linspace para generar los valores de 5 hasta 15 en ¨x¨ y 5 hasta 25 en ¨y¨. Luego se aplica la sumatoria para densidades marginales con la función de numpy de sumar partes de la matriz obtenida. Luego se aplica la ecuación de densidad de Gauss para determinar sus párametros como se muestra en el código a continuación. En la parte 4 se colocan todas las gráficas, en ellas se encuentra la forma de solo las curvas con el ruido, que da la forma de Gauss.
+Para esta parte se tiene que leer el .csv y se divide en dos arreglos, uno con las sumatorias de los datos marginales de x y otro con los datos marginales de y. Luegos se usa linspace para generar los valores de 5 hasta 15 en ¨x¨ y 5 hasta 25 en ¨y¨. Luego se aplica la sumatoria para densidades marginales con la función de numpy de sumar partes de la matriz obtenida. Luego se aplica la ecuación de densidad de Gauss para determinar sus párametros como se muestra en el código a continuación. En la parte 4 se colocan todas las gráficas, en ellas se encuentra la forma de solo las curvas con el ruido, que da la forma de Gauss.Las librerías para hacer el código son las siguientes:
+```python
+
+```
+
 
 ### Código usado para obtener los parámetros de la mejor curva de ajuste
 ```python
@@ -67,7 +71,7 @@ La correlación encontrada es la siguiente:
 
 Correlación: 149.54281000000012
 ### La Covarianza
-Indica el grado de variación de variación de dos variables aleatorias respecto a su medida. En la fórmula se hace la resta de la correlación y la media. Al ser una función de Gauss, se obtiene que la media es el <img src="https://render.githubusercontent.com/render/math?math=\mu">, por ello se usan las de cada uno, como "x" y "y".
+Indica el grado de variación de variación de dos variables aleatorias respecto a su medida. En la fórmula se hace la resta de la correlación y la media. Al ser una función de Gauss, se obtiene que la media es el <img src="https://render.githubusercontent.com/render/math?math=\mu">, por ello se usan las de cada uno, para "x" y "y".
 
 
 ```python
@@ -79,5 +83,13 @@ Para los datos utilizados da lo siguiente:
 
 Covarianza: 0.18310501696706183
 ### El coeficiente de Correlación
+
+
+```python
+cc = covarianza/ (param[1]*paramy[1]*4)
+print( "Coeficiente de correlación:" ,cc)
+
+```
+
 Coeficiente de correlación: 0.002301987358892183
 
