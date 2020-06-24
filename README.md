@@ -29,4 +29,5 @@ Se tiene que ambos son funciones de Gauss, para ello se tiene multiplicar ambas 
 
 A continuación se coloca el procedimiento y su resultado.
 
+<img src="https://render.githubusercontent.com/render/math?math=f(x)=ae^{-(x-b)^{2}/2c^{2}}">
 
