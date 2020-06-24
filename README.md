@@ -42,6 +42,11 @@ Es lo mismo para ambas, solo cambia el <img src="https://render.githubuserconten
 Siendo a y b los puntos más altos de "x" y "y" respectivamente. Se suman los exponentes.
 
 ## Parte 3-Expresión de la función de densidad conjunta que modela los datos
+### La correlación
+Es el grado en el cual dos o más cantidades están linealmente asociadas. Para hacer esto se tiene que en cantidades discretas es la sumatoria de la función de densidad, multiplicada por las variables de "x" y "y".
+
+<img src="https://render.githubusercontent.com/render/math?math=Rxy=\Sigma%20\Sigma%20xyf_{xy}(x,y)">
+
 Correlación: 149.54281000000012
 Covarianza: 149.54281000000012
 Coeficiente de variación: 0.002301987358892183
