@@ -5,7 +5,12 @@ Es mi código fuente de la tarea 3 de modelos probabilísticos. Se encuentra el 
 ## Parte 1-Mejor Curva de ajuste para las funciones de densidad marginales de X y Y
 Para esta parte se tiene que leer el .csv y se divide en dos arreglos, uno con las sumatorias de los datos marginales de x y otro con los datos marginales de y. Luegos se usa linspace para generar los valores de 5 hasta 15 en ¨x¨ y 5 hasta 25 en ¨y¨. Luego se aplica la sumatoria para densidades marginales con la función de numpy de sumar partes de la matriz obtenida. Luego se aplica la ecuación de densidad de Gauss para determinar sus párametros como se muestra en el código a continuación. En la parte 4 se colocan todas las gráficas, en ellas se encuentra la forma de solo las curvas con el ruido, que da la forma de Gauss.Las librerías para hacer el código son las siguientes:
 ```python
-
+#Tarea3-Modelos Andrés Moya R. B54889
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from mpl_toolkits import mplot3d
+from scipy.optimize import curve_fit
 ```
 
 
@@ -83,13 +88,14 @@ Para los datos utilizados da lo siguiente:
 
 Covarianza: 0.18310501696706183
 ### El coeficiente de Correlación
-
+El coeficiente de correlación de Pearson es lo que determina la dependencia de dos variables aleatorias. Esto se obtiene al dividir la covarianza entre la desviación estándar de "x" y "y". Alplicando esto para Gauss, da el siguiente código.
 
 ```python
 cc = covarianza/ (param[1]*paramy[1]*4)
 print( "Coeficiente de correlación:" ,cc)
 
 ```
+El valor deber encontrarse entre -1 y 1. El valor siguiente se encuentra dentro de ese rango.
 
 Coeficiente de correlación: 0.002301987358892183
 
