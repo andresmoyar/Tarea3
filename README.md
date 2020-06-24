@@ -154,3 +154,26 @@ plt.show()
 ### La curva obtenida para los datos con ruido de fx
 
 <img src="https://github.com/andresmoyar/Tarea3/blob/master/CurvaFx.png">
+
+### La curva obtenida para los datos con ruido de fy
+
+<img src="https://github.com/andresmoyar/Tarea3/blob/master/CurvaFy.png">
+
+
+### La curva obtenida para los datos sin ruido de fx, curva de mejor ajuste
+
+<img src="https://github.com/andresmoyar/Tarea3/blob/master/CurvaGaussianaFx.png">
+
+
+### La curva obtenida para los datos sin ruido de fy,curva de mejor ajuste
+
+<img src="https://github.com/andresmoyar/Tarea3/blob/master/CurvaFx.png">
+
+
+### La curva obtenida para los datos en 3D
+
+<img src="https://github.com/andresmoyar/Tarea3/blob/master/Curva3D.png">
+
+
+
+
