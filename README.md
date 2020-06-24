@@ -177,5 +177,3 @@ plt.show()
 <img src="https://github.com/andresmoyar/Tarea3/blob/master/Curva3D.png">
 
 
-
-
