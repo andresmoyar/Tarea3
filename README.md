@@ -23,4 +23,4 @@ Para esta parte se tiene que leer el .csv y se divide en dos arreglos, uno con l
 ```
 ## Parte 2-Expresión de la función de densidad conjunta que modela los datos
 
-Para determinar esto se sabe que *_(fxfy)=*fx(x)*fy(y)
+Para determinar esto se sabe que *fxfy=fx(x)fy(y)
