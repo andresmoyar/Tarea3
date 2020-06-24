@@ -99,3 +99,55 @@ El valor deber encontrarse entre -1 y 1. El valor siguiente se encuentra dentro 
 
 Coeficiente de correlación: 0.002301987358892183
 
+## Parte 4-Gráficas en 2D y 3D
+
+Con lo encontrado anteriormente y el siguiente código se generan las gráficas del modelo. 
+
+```python
+#Parte 4
+#Curva Fx
+
+plt.xlabel('x')
+plt.ylabel('Fx')
+plt.title('Curva obtenida de datos marginales en x con ruido')
+plt.plot(x,sumx)
+plt.show()
+#Curva Fy
+plt.xlabel('y')
+plt.ylabel('Fy')
+plt.title('Curva obtenida de datos marginales en y con ruido')
+
+plt.plot(y,sumy)
+plt.show()
+
+#Curva Gaussiana de valores de x
+mux=param[0]
+sigmax=param[1]
+plt.xlabel('x')
+plt.ylabel('Fx')
+plt.title('Curva de mejor ajuste para datos marginales de x sin ruido')
+plt.plot(x,gaussiana(x,mux,sigmax))
+plt.show()
+#Curva de Gauss de valores de y
+muy=paramy[0]
+sigmay=paramy[1]
+plt.xlabel('y')
+plt.ylabel('Fy')
+plt.title('Curva de mejor ajuste para datos de marginales y sin ruido')
+plt.plot(y,gaussiana(y,muy,sigmay))
+plt.show()
+
+#Curva 3D
+eje = plt.axes(projection='3d')
+X = x1
+Y = y1
+Z = p
+
+eje.plot_trisurf(X, Y, Z, cmap='twilight_shifted')
+eje.set_xlabel('X ')
+eje.set_ylabel('Y ')
+eje.set_zlabel('Z ')
+eje.set_title('Curva 3D')
+plt.show()
+
+```
