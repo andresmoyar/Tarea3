@@ -6,8 +6,10 @@ Para esta parte se tiene que leer el .csv y se divide en dos arreglos, uno con l
 
 #Parte 1 Mejor Curva de ajuste
 
-x = np.linspace(5,15,11)
-y = np.linspace(5,25,21)
+As an Admin/Root user on your system do:
+
+   x = np.linspace(5,15,11)
+   y = np.linspace(5,25,21)
 df = pd.read_csv("xy.csv")
 arr = df.to_numpy()
 arr=np.delete(arr,0,1)
