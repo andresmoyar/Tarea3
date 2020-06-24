@@ -45,7 +45,7 @@ print( "Covarianza :" ,covarianza)
 
 # Coeficiente de correlación
 cc = covarianza/ (param[1]*paramy[1]*4)
-print( "Coeficiente de varianza:" ,cc)
+print( "Coeficiente de correlación:" ,cc)
 
 #Parte 4
 #Curva Fx
