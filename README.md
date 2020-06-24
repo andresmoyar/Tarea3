@@ -151,4 +151,6 @@ eje.set_title('Curva 3D')
 plt.show()
 
 ```
-<img src="https://github.com/andresmoyar/Tarea3/blob/master/CurvaGaussianaFy.png">
+### La curva obtenida para los datos con ruido de fx
+
+<img src="https://github.com/andresmoyar/Tarea3/blob/master/CurvaFx.png">
