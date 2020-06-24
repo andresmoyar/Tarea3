@@ -44,5 +44,5 @@ Siendo a y b los puntos más altos de "x" y "y" respectivamente. Se suman los ex
 ## Parte 3-Expresión de la función de densidad conjunta que modela los datos
 Correlación: 149.54281000000012
 Covarianza: 149.54281000000012
-Coeficiente de variazión: 0.002301987358892183
+Coeficiente de variación: 0.002301987358892183
 
