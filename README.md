@@ -143,7 +143,7 @@ X = x1
 Y = y1
 Z = p
 
-eje.plot_trisurf(X, Y, Z, cmap='twilight_shifted')
+eje.plot_trisurf(X, Y, Z, cmap='jet')
 eje.set_xlabel('X ')
 eje.set_ylabel('Y ')
 eje.set_zlabel('Z ')
