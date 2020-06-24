@@ -2,9 +2,9 @@
 # Andrés Moya Ramírez B54889
 Es mi código fuente de la tarea 3 de modelos probabilísticos. Se encuentra el código fuente y las gráficas obtenidas. 
 ## Parte 1-Mejor Curva de ajuste para las funciones de densidad marginales de X y Y
-Para esta parte se tiene que leer el .csv y se divide en dos arreglos, uno con las sumatorias de los datos marginales de x y otro con los datos marginales de y. Luegos se usa linspace para generar los valores de 5 hasta 15 en ¨x¨ y 5 hasta 25 en ¨y¨. 
+Para esta parte se tiene que leer el .csv y se divide en dos arreglos, uno con las sumatorias de los datos marginales de x y otro con los datos marginales de y. Luegos se usa linspace para generar los valores de 5 hasta 15 en ¨x¨ y 5 hasta 25 en ¨y¨. Luego se aplica la sumatoria para densidades marginales con la función de numpy de sumar partes de la matriz obtenida. Luego se aplica la ecuación de densidad de Gauss para determinar sus párametros como se muestra en el código a continuación.
 
-###Código usado
+### Código usado para obtener los parámetros de la mejor curva de ajuste
 ```python
  x = np.linspace(5,15,11)
  y = np.linspace(5,25,21)
