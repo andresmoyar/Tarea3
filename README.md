@@ -154,11 +154,11 @@ eje.set_title('Curva 3D')
 plt.show()
 
 ```
-### La curva obtenida para los datos con ruido de fx
+### La curva obtenida para los datos con ruido de fx,función de densidad marginal
 
 <img src="https://github.com/andresmoyar/Tarea3/blob/master/CurvaFx.png">
 
-### La curva obtenida para los datos con ruido de fy
+### La curva obtenida para los datos con ruido de fy,función de densidad marginal
 
 <img src="https://github.com/andresmoyar/Tarea3/blob/master/CurvaFy.png">
 
@@ -173,7 +173,7 @@ plt.show()
 <img src="https://github.com/andresmoyar/Tarea3/blob/master/CurvaGaussianaFy.png">
 
 
-### La curva obtenida para los datos en 3D
+### La curva obtenida para los datos en 3D,función de densidad conjunta
 
 <img src="https://github.com/andresmoyar/Tarea3/blob/master/Curva3D.png">
 
