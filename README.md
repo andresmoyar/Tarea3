@@ -1,7 +1,7 @@
 # Tarea3 
-## IE0405-Modelos probabilísticos de señales y sistemas 
-## Andrés Moya Ramírez B54889
-## Universidad de Costa Rica
+### IE0405-Modelos probabilísticos de señales y sistemas 
+### Andrés Moya Ramírez B54889
+### Universidad de Costa Rica
 Es mi código fuente de la tarea 3 de modelos probabilísticos. Se encuentra el código fuente y las gráficas obtenidas.
 
 Las librerías para hacer el código son las siguientes:
