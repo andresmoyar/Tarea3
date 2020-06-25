@@ -53,7 +53,7 @@ Es lo mismo para ambas, solo cambia el <img src="https://render.githubuserconten
 
 Siendo a y b los puntos más altos de "x" y "y" respectivamente. Se suman los exponentes.
 
-## Parte 3-Expresión de la función de densidad conjunta que modela los datos
+## Parte 3-Valores de Correlación,Covarianza y Coeficiente de Correlación
 ### La correlación
 Es el grado en el cual dos o más cantidades están linealmente asociadas. Para hacer esto se tiene que en cantidades discretas es la sumatoria de la función de densidad, multiplicada por las variables de "x" y "y", estos son los términos que varía la sumatoria(fxy,x,y).
 
