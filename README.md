@@ -94,13 +94,13 @@ Covarianza: 0.18310501696706183
 El coeficiente de correlación de Pearson es lo que determina la dependencia de dos variables aleatorias. Esto se obtiene al dividir la covarianza entre la desviación estándar de "x" y "y". Alplicando esto para Gauss, da el siguiente código.
 
 ```python
-cc = covarianza/ (param[1]*paramy[1]*4)
+cc = covarianza/ (param[1]*paramy[1])
 print( "Coeficiente de correlación:" ,cc)
 
 ```
 El valor deber encontrarse entre -1 y 1. El valor siguiente se encuentra dentro de ese rango.
 
-Coeficiente de correlación: 0.002301987358892183
+Coeficiente de correlación: 0 0.009207949435568732
 
 ## Parte 4-Gráficas en 2D y 3D
 
