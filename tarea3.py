@@ -44,7 +44,7 @@ print( "Covarianza :" ,covarianza)
 
 
 # Coeficiente de correlación
-cc = covarianza/ (param[1]*paramy[1]*4)
+cc = covarianza/ (param[1]*paramy[1])
 print( "Coeficiente de correlación:" ,cc)
 
 #Parte 4
